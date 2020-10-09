@@ -8,7 +8,7 @@ body {
     margin: 0;
     font-family: georgia;
     background: url('../pics/bg-body.png') #fff;
-    background: lightgray;
+    background: rgb(211, 211, 211);
 }
 
 h1{
@@ -34,7 +34,7 @@ h1{
 }
 
 .page{
-    display:inline-block
+    display:inline-block;
 }
 
 nav{
@@ -47,12 +47,15 @@ nav li{
     text-align: left;
     border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
     padding: 15px;
-
 }
 
 nav a{
     color: white;
     text-decoration: none;
+}
+
+nav ul{
+    min-width: 200px;
 }
 
 .recipes{
@@ -72,11 +75,11 @@ aside{
     order: 1;
     flex: 15%;
     flex-wrap: wrap;
-    float: left;
 }
 
 aside li{
     list-style: none;
+    border-bottom: 1px dashed black;
 }
 
 aside a{
@@ -84,4 +87,16 @@ aside a{
     text-decoration: none;
 }
 
+main{
+    order: 2;
+}
+
+.pagination{
+    text-align: center;
+}
+
+aside ul{
+    padding: 0px;
+    width: 250px;
+}
 
