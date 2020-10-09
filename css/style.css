@@ -8,4 +8,78 @@ body {
     margin: 0;
     font-family: georgia;
     background: url('../pics/bg-body.png') #fff;
+    background: lightgray;
 }
+
+h1{
+    font-family: "Lobster",sans-serif;
+    text-align: center;
+    background: white;
+    padding: 40px;
+    font-size: 4rem;
+    color: rgb(74, 207, 74);
+    border-top: 2px dashed rgba(0, 0, 0, 0.3);
+    border-bottom: 2px dashed rgba(0, 0, 0, 0.3);
+    width: auto;
+}
+
+.content{
+    display: flex;
+}
+
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.page{
+    display:inline-block
+}
+
+nav{
+    order: 3;
+    background: black;
+    flex: 30%;
+}
+
+nav li{
+    text-align: left;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+    padding: 15px;
+
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.recipes{
+    order: 1;
+    flex:70%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.recipe-box{
+    background: white;
+
+}
+
+aside{
+    order: 1;
+    flex: 15%;
+    flex-wrap: wrap;
+}
+
+aside li{
+    list-style: none;
+}
+
+aside a{
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+
