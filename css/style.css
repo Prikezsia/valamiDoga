@@ -64,6 +64,7 @@ nav a{
 
 .recipe-box{
     background: white;
+    flex: 35%;
 
 }
 
@@ -71,6 +72,7 @@ aside{
     order: 1;
     flex: 15%;
     flex-wrap: wrap;
+    float: left;
 }
 
 aside li{
